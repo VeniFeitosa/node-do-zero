@@ -1,0 +1,26 @@
+POST http://localhost:8000/videos
+Content-Type: application/json
+
+{
+    "title": "titulo",
+    "description": "descricao",
+    "duration": 180
+}
+
+###
+
+GET  http://localhost:8000/videos
+
+###
+
+PUT http://localhost:8000/videos/e4213a9f-aa55-4992-a46e-e944ce81c38b
+Content-Type: application/json
+
+{
+    "title": "video doido",
+    "description": "descricao",
+    "duration": 180
+}
+
+###
+DELETE http://localhost:8000/videos/e4213a9f-aa55-4992-a46e-e944ce81c38b
